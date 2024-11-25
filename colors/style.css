@@ -1,0 +1,32 @@
+body{
+    /*
+    predefined color name
+    */
+    text-align: center;
+    accent-color: grey;
+}
+
+#first{
+    /*
+    rgb color
+    */
+    background-color: rgb(48,145,15);
+}
+#second{
+    /*
+    rgba color
+    */
+    background-color: rgba(48,145,15,0.5);
+}
+#third{
+    /*
+    hex color
+    */
+    background-color: #fff847;
+}
+#forth{
+    /*
+    hsl color
+    */
+    background-color: hsl(87, 100%, 50%);
+}
