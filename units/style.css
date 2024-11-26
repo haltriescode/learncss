@@ -1,0 +1,33 @@
+html{
+    /*
+    This will be root element
+    */
+    font-size: 10px;
+}
+body{
+    /*
+    predefined color name
+    */
+    text-align: center;
+    background-color: grey;
+}
+
+#first{
+    /*
+    rem example, 2rem = 2 x root element
+    */
+    background-color: rgb(48,145,15);
+    font-size: 2rem;
+}
+#second{
+
+    background-color: rgba(48,145,15,0.5);
+}
+#third{
+
+    background-color: #fff847;
+}
+#forth{
+
+    background-color: hsl(87, 100%, 50%);
+}
