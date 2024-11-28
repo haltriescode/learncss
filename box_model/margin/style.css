@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    /* basically set margin to default */
+    margin: 0px;
+}
+
+    .box-1{
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    /* Margin Auto */
+    margin: auto;
+    background-color: aqua;
+    padding: 40px ;
+    border: 15px solid gray;
+    }
+
+    .box-2{
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    /* margin stick to the left of the screen */
+    margin-left: auto;
+    background-color: aqua;
+    padding: 40px ;
+    border: 15px solid gray;
+    } 
+
+  .box-3{
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    /* margin value inherit from body margin */
+    background-color: aqua;
+    padding: 40px ;
+    border: 15px solid gray;
+  } 
+
+
+
+
