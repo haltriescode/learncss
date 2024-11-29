@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    /* basically set margin to default */
+    /* basically set box to stick to the left screen */
     margin: 0px;
 }
 
@@ -19,7 +19,7 @@ body{
     text-align: center;
     width: 320px;
     height: 50px;
-    /* margin stick to the left of the screen */
+    /* margin stick to the right of the screen */
     margin-left: auto;
     background-color: aqua;
     padding: 40px ;
