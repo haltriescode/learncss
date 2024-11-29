@@ -31,8 +31,15 @@ body{
     border-radius: 10px;
 }
 
+/* END OF BASE STYLE */
+
 .container{
+    /*create virtual axis */
     display: flex;
+    /*flex-direction: column;*/
+    /* if dont tell what the flex direction is, it will be row by default */
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
