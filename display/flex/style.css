@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid black;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    padding : 1em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    border: 10px solid grey;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+
