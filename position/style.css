@@ -1,0 +1,24 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    padding : 1em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    border: 10px solid grey;
+    border-radius: 10px;
+    /*Set Box Position*/
+    /***
+    position: fixed;
+    position: sticky;
+    position: absolute;
+    position: relative;
+    position: static /* default position 
+    ***/
+    position:fixed; 
+}
+
+
+
+
