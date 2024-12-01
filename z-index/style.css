@@ -1,33 +1,36 @@
 .box-1{
     width: 100px;
     height: 100px;
-    background-color: aqua;
+    background-color: greenyellow;
     padding : 1em;
     font-weight: 700;
     color: white;
     text-align: center;
+    /* Will be on the middle */
     z-index: 2;
     position: fixed;
 }
 .box-2{
     width: 250px;
     height: 250px;
-    background-color: greenyellow;
+    background-color: aqua;
     padding : 1em;
     font-weight: 700;
     color: white;
     text-align: center;
+    /* Will be on the back */
     z-index: 1;
     position: fixed;
 }
 .box-3{
     width: 50px;
     height: 50px;
-    background-color: rgb(218, 8, 8);
+    background-color: rgb(237, 255, 80);
     padding : 1em;
     font-weight: 700;
     color: white;
     text-align: center;
+    /* will be on the front */
     z-index: 3;
     position: fixed;
 }
